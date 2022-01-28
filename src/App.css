@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search {
+    width: 650px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-flow: column; */
+    margin-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+    padding: 10px;
+    border-radius: 15px;
+    width: 800px;
+    border: none;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+    width: 150px;
+    margin-left: 25px;
+}
+
+h5 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+}
+
+.wether {
+    margin-top: 90px;
+    width: 650px;
+    padding: 5px;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: #547994; */
+    /* box-shadow: 5px 5px 5px 5px #888888; */
+    border-radius: 10px;
+}
+
+p {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    display: flex;
+}
+
+.disp {
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    justify-content: end;
+    margin-left: 15px;
+    color: white;
+}
+
+.day {
+    justify-content: end;
+}
+
+.mainpart {
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    width: 250px;
+    background: none;
+    border-radius: 10px;
+    background-color: #29465B;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.wetherdetails {
+    /* background-color: rgb(9, 9, 128); */
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.place {
+    /* background-color: ; */
+    padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.navv {
+    background-color: rgb(0, 9, 90);
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        background-image: url("https://images.pexels.com/photos/7084222/pexels-photo-7084222.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    }
 }
